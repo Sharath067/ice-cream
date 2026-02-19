@@ -1,0 +1,175 @@
+.featured{
+  padding:80px 60px;
+  background:#f5f5f5;
+}
+
+.featured-header{
+  margin-bottom:40px;
+  text-align:center;   
+  display:flex;
+  flex-direction:column;
+  align-items:center;  
+}
+
+
+.featured-header h2{
+  font-size:28px;
+  font-weight:700;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:15px;
+}
+
+.featured-header h2 span{
+  width:50px;
+  height:3px;
+  background:#ff6ea9;
+  display:inline-block;
+}
+
+.featured-header p{
+  color:#666;
+  margin-top:5px;
+}
+
+/* Grid */
+.featured-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:30px;
+  border-radius: 60px;
+}
+
+/* Card */
+.card{
+  background:white;
+  border-radius:6px;
+  overflow:hidden;
+  box-shadow:0 5px 15px rgba(0,0,0,0.08);
+  text-align:center;
+  transition:0.3s;
+  position:relative;
+}
+
+.card:hover{
+  transform:translateY(-8px);
+}
+
+.card-image{
+  height:200px;
+  background:#e6d8a8;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition:0.3s;
+}
+
+.card:hover .card-image{
+  background:#ffe3ef;
+}
+
+.card-image img{
+  width:220px;
+  height:220px;
+  object-fit:contain;
+}
+
+.card-body{
+  padding:40px 20px 25px;
+}
+
+.price{
+  position:absolute;
+  top:175px;
+  left:50%;
+  transform:translateX(-50%);
+  width:80px;
+  height:40px;
+  background:white;
+  border-radius:40px 40px 0 0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:bold;
+  font-size:18px;
+}
+
+.card-body h4{
+  margin-bottom:15px;
+  font-weight:600;
+  font-size:18px;
+}
+
+.card-body button{
+  border:2px solid #ff6ea9;
+  background:transparent;
+  color:#ff6ea9;
+  padding:10px 22px;
+  border-radius:25px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.card-body button:hover{
+  background:#ff6ea9;
+  color:white;
+}
+
+.see-more{
+  text-align:center;
+  margin-top:40px;
+}
+
+.see-more button{
+  background:#ff6ea9;
+  border:none;
+  color:white;
+  padding:10px 25px;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+@media (max-width: 768px) {
+  .featured {
+    padding: 60px 20px;
+  }
+
+  .featured-header h2 {
+    font-size: 24px;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card-image {
+    height: 180px;
+  }
+
+  .card-image img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .price {
+    top: 155px;
+  }
+}
+
+@media (max-width: 480px) {
+  .featured-header p {
+    font-size: 14px;
+  }
+
+  .card-body h4 {
+    font-size: 16px;
+  }
+
+  .card-body button {
+    padding: 8px 18px;
+    font-size: 14px;
+  }
+}

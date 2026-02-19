@@ -1,0 +1,166 @@
+.services-section {
+  width: 100%;
+  padding: 80px 60px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f1f1f;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.title-line {
+  position: absolute;
+  width: 45px;
+  height: 4px;
+  background-color: #ff9acb;
+  right: -65px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 10px;
+}
+
+.services-subtitle {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+.services-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.service-card {
+  width: 320px;
+  padding: 30px 25px;
+  border: 2px solid #ff9acb;
+  border-radius: 40px;
+  text-align: left;
+}
+
+/* NEW */
+.card-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.service-icon {
+  font-size: 78px;
+  color: #ff9acb;
+  margin-top: -25px;
+}
+
+.card-text h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f1f1f;
+  margin-bottom: 8px;
+}
+
+.card-text p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.read-more-btn {
+  padding: 12px 35px;
+  background-color: #ff9acb;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .services-section {
+    padding: 70px 30px;
+  }
+
+  .services-cards {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .service-card {
+    width: 45%;
+  }
+
+  .service-icon {
+    font-size: 68px;
+    margin-top: -20px;
+  }
+
+  .services-title {
+    font-size: 32px;
+  }
+
+  .services-subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-section {
+    padding: 60px 15px;
+  }
+
+  .services-title {
+    font-size: 24px;
+  }
+
+  .title-line {
+    width: 30px;
+    right: -40px;
+    height: 3px;
+  }
+
+  .services-subtitle {
+    font-size: 13px;
+    margin-bottom: 35px;
+  }
+
+  .services-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .service-card {
+    width: 100%;
+    padding: 25px 20px;
+    border-radius: 30px;
+  }
+
+  .card-content {
+    gap: 12px;
+  }
+
+  .service-icon {
+    font-size: 60px;
+    margin-top: -18px;
+  }
+
+  .card-text h3 {
+    font-size: 16px;
+  }
+
+  .card-text p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .read-more-btn {
+    padding: 10px 28px;
+    font-size: 13px;
+  }
+}
