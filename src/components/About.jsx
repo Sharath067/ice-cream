@@ -19,12 +19,19 @@ export default function About() {
           </div>
 
           <p>
-            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu consectetur adipiscing sequat. Duis aute irure
-            dolor in reprehenderit in voluptate velit esse cillum dolore u
+            Ice cream is a popular frozen dessert loved by people of all ages
+            around the world. It is made from ingredients such as milk, cream,
+            sugar, and natural or artificial flavors. The mixture is churned
+            while freezing to create a smooth, creamy texture. Ice cream comes
+            in a wide variety of flavors, including classic options like
+            vanilla, chocolate, and strawberry, as well as modern and unique
+            flavors like cookies and cream, mango, and chocolate brownie. Ice
+            cream is often enjoyed as a refreshing treat, especially during hot
+            weather, and is commonly served in cones, cups, or as part of
+            desserts like sundaes, milkshakes, and cakes. In addition to its
+            delicious taste, ice cream is also associated with celebrations,
+            family gatherings, and special occasions, making it more than just a
+            dessert—it’s an experience that brings joy and happiness.
           </p>
 
           <button className="read-btn">Read More</button>
